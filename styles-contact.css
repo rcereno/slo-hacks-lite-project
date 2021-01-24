@@ -130,20 +130,40 @@ body {
 
 h1 {
 	text-align: center;
-	color: white;
-	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-	margin: 40px 0 40px;
+	margin: 60px 0 60px;
+	text-shadow: 1px 1px 2px teal, 2px 2px 25px white, 0 0 5px midnightblue;
 	text-align: center;
-	font-size: 30px;
+	font-size: 68px;
+	color:#191970;
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	position: static;
+	margin: 25px 10px 25px;
+	text-shadow: 2px 2px 5px teal;
+	font-size: 35px;
+	text-align: center;
+	color:#ecf0f1;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+h3 {
+	position: static;
+	margin: 32px 40px 32px;
+	font-size: 18px;
+	text-align:left;
+	line-height: 0.8cm;
+	color:rgb(25, 25, 112);
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 p {
     width: 100%;
     text-align: center;
-    color: #191970;
+    color: #ecf0f1;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 span {
