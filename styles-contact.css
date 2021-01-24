@@ -141,7 +141,7 @@ h1 {
 p {
     width: 100%;
     text-align: center;
-    color: #10375d;
+    color: #191970;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
@@ -153,5 +153,5 @@ span {
 li {
 	font-size: 16px;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #10375d;
+	color: #191970;
 }
