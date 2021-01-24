@@ -151,7 +151,8 @@ span {
 }
 
 li {
-	font-size: 16px;
+	font-size: 18px;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #191970;
+	color: black;
+	text-shadow: 0 0 3px lightskyblue;
 }
