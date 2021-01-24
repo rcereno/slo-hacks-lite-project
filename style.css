@@ -78,3 +78,18 @@ h2 {
     box-shadow: none;
     transform: none;
 }
+/* Result Page */
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60rem;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color: #fff;
+    text-align: center;
+}

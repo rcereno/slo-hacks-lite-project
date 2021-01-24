@@ -33,7 +33,14 @@ let questions = [
         answer: 2,
     },
     {
-        question: "Do you consider as a burden to anyone??",
+        question: "Do you consider yourself as a burden to anyone?",
+        choice1: "Yes",
+        choice2: "No",
+       
+        answer: 2,
+    }, 
+    {
+        question: "Have you had any suicidal thoughts recently?",
         choice1: "Yes",
         choice2: "No",
        
@@ -42,7 +49,7 @@ let questions = [
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 5
 
 startQuiz = () => {
     questionCounter = 0
