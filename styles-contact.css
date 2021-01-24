@@ -131,7 +131,7 @@ body {
 h1 {
 	text-align: center;
 	margin: 60px 0 60px;
-	text-shadow: 1px 1px 2px teal, 2px 2px 25px white, 0 0 5px midnightblue;
+	text-shadow: 1px 1px 2px teal, 2px 2px 25px gray, 0 0 5px midnightblue;
 	text-align: center;
 	font-size: 68px;
 	color:#191970;
@@ -163,7 +163,8 @@ p {
     text-align: center;
     color: #ecf0f1;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+	font-size: 22px;
+	text-shadow: 2px 2px 5px teal;
 }
 
 span {
@@ -171,8 +172,14 @@ span {
 }
 
 li {
-	font-size: 18px;
+	font-size: 19px;
+	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	color: black;
-	text-shadow: 0 0 3px lightskyblue;
+	text-shadow: 2px 2px 5px white;
+}
+
+button {
+	margin:auto;
+	display:block;
 }
