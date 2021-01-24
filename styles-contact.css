@@ -55,83 +55,104 @@ table {
 
 /* ---------- Hello, my name is YOUR NAME GOES HERE and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2019 ------------ */
 
-html, body {
-    font-family: Vollkorn;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    /* background: url(images/cat_on_bed.gif)
-        center center fixed no-repeat;
-        background-size: cover; */
-}
+nav {
+	margin: 27px auto 0;
 
-.center {
-    width: 65%;
-    border-radius: 25px;
-	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(250, 250, 250, .75); /*this uses opacity of 75% for the background color*/
+	position: relative;
+	width: 354px;
+	height: 50px;
+	background-color: #e0e2d5;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
 	text-align: center;
+	color: white;
+	cursor: pointer;
 }
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #10375d;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #10375d;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #10375d;
+}
+/* nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 470px;
+	background-color: #e67e22;
+} */
 
-   
-#logo {
-    margin-bottom: 8px;
-    text-align: center;
-    height: 300px;
+body {
+	font-size: 12px;
+	font-family: serif;
+	background: #6db8bb;
 }
 
 h1 {
-    font-weight: regular;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #4B0082;
-}
-
-h2 {
-    font-weight: regular;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #4B0082;
-    padding: 0px 0px;
-    margin: 0px auto 10px auto;
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 30px;
+	color: #ecf0f1;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-    font-weight: regular;
-	font-size: 1.2em;
-    line-height: 1.6;
-    color: #4B0082;
-}
-    
-nav{
-    font-size: 1.5em;
-    width: 400px;
-    margin: 0 auto;
-    border-width: 3px 0;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
     text-align: center;
-    margin-top: 2em;
-    }
+    color: #ecf0f1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
 
-nav li{
-    display: inline;
-    }
-
-nav a{
-    display: inline-block;
-    padding: 10px;
-    }
-
-a{
-    color: #4B0082;
-    text-decoration: none;
-    font-weight: regular;
-    }
-
-a:hover{
-    border-radius: 25px;
-    color: white;
-    background: #4B008270;
-    }
+span {
+    color: #e0e2d5;
+}
